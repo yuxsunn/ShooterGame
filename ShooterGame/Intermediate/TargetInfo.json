@@ -1,0 +1,24 @@
+{
+	"Targets": [
+		{
+			"Name": "ShooterClient",
+			"Path": "G:\\ShooterGame\\Source\\ShooterClient.Target.cs",
+			"Type": "Client"
+		},
+		{
+			"Name": "ShooterGame",
+			"Path": "G:\\ShooterGame\\Source\\ShooterGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ShooterGameEditor",
+			"Path": "G:\\ShooterGame\\Source\\ShooterGameEditor.Target.cs",
+			"Type": "Editor"
+		},
+		{
+			"Name": "ShooterServer",
+			"Path": "G:\\ShooterGame\\Source\\ShooterServer.Target.cs",
+			"Type": "Server"
+		}
+	]
+}

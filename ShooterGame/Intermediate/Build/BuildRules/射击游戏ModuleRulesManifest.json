@@ -1,0 +1,11 @@
+{
+	"SourceFiles": [
+		"G:\\射击游戏\\Source\\ShooterGame\\ShooterGame.Build.cs",
+		"G:\\射击游戏\\Source\\ShooterGameLoadingScreen\\ShooterGameLoadingScreen.Build.cs",
+		"G:\\射击游戏\\Source\\ShooterClient.Target.cs",
+		"G:\\射击游戏\\Source\\ShooterGame.Target.cs",
+		"G:\\射击游戏\\Source\\ShooterGameEditor.Target.cs",
+		"G:\\射击游戏\\Source\\ShooterServer.Target.cs"
+	],
+	"EngineVersion": "4.26.0"
+}

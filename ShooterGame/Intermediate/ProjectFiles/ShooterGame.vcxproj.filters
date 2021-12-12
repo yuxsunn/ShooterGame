@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ShooterGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{DAAEFC64-3846-49EF-B37A-AA4188244B82}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShooterClient.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ShooterGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ShooterGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ShooterServer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\ShooterGame.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{A36B2E0D-CAE0-463D-9B84-243CF964E161}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultCrypto.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultDeviceProfiles.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{54DD8D7A-5983-4C24-8406-E756AADD0228}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{067EBA47-11C4-40A8-AA6E-4980B91BDB8C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <None Include="..\..\Config\Linux\LinuxGame.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\LinuxAArch64">
+      <UniqueIdentifier>{862D256B-8D27-4613-AA7A-B481F9CB7A47}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\LinuxAArch64\LinuxAArch64Engine.ini">
+      <Filter>Config\LinuxAArch64</Filter>
+    </None>
+    <None Include="..\..\Config\LinuxAArch64\LinuxAArch64Game.ini">
+      <Filter>Config\LinuxAArch64</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{010B0FD5-9287-461A-BEE6-69831D625ABF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\OSS">
+      <UniqueIdentifier>{A25CEBDD-1E38-4E57-8100-02DFC978779B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\OSS\Live">
+      <UniqueIdentifier>{3206EDA3-4529-4904-BA18-46B3EEC9AB24}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\OSS\Live\Achievements.json">
+      <Filter>Config\OSS\Live</Filter>
+    </None>
+    <ClInclude Include="..\..\Config\OSS\Live\Events-EPCC.1-45783947.h">
+      <Filter>Config\OSS\Live</Filter>
+    </ClInclude>
+    <None Include="..\..\Config\OSS\Live\Events.json">
+      <Filter>Config\OSS\Live</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{6205962D-94C4-4AD1-8FB1-AE70ACEF0EBB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Source\ShooterGame">
+      <UniqueIdentifier>{DEA1F3B3-D446-442E-97EF-B2B980A19DF8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShooterGame\ShooterGame.Build.cs">
+      <Filter>Source\ShooterGame</Filter>
+    </None>
+    <Filter Include="Source\ShooterGame\Private">
+      <UniqueIdentifier>{5A2E295E-D13F-4FAD-B0FA-32E0A7B51D35}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\ShooterEngine.cpp">
+      <Filter>Source\ShooterGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\ShooterGameDelegates.cpp">
+      <Filter>Source\ShooterGame\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\ShooterGameDelegates.h">
+      <Filter>Source\ShooterGame\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\ShooterGameInstance.cpp">
+      <Filter>Source\ShooterGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\ShooterGameModule.cpp">
+      <Filter>Source\ShooterGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\ShooterGameUserSettings.cpp">
+      <Filter>Source\ShooterGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\ShooterGameViewportClient.cpp">
+      <Filter>Source\ShooterGame\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\ShooterLeaderboards.h">
+      <Filter>Source\ShooterGame\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\ShooterTeamStart.cpp">
+      <Filter>Source\ShooterGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\TakeHitInfo.cpp">
+      <Filter>Source\ShooterGame\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShooterGame\Private\Bots">
+      <UniqueIdentifier>{22040B8F-D991-4D22-AB74-904685FD3E2E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Bots\BTDecorator_HasLoSTo.cpp">
+      <Filter>Source\ShooterGame\Private\Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Bots\BTTask_FindPickup.cpp">
+      <Filter>Source\ShooterGame\Private\Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Bots\BTTask_FindPointNearEnemy.cpp">
+      <Filter>Source\ShooterGame\Private\Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Bots\ShooterAIController.cpp">
+      <Filter>Source\ShooterGame\Private\Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Bots\ShooterBot.cpp">
+      <Filter>Source\ShooterGame\Private\Bots</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShooterGame\Private\Effects">
+      <UniqueIdentifier>{182B899C-D19E-4241-A78E-223BED514A58}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Effects\ShooterExplosionEffect.cpp">
+      <Filter>Source\ShooterGame\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Effects\ShooterImpactEffect.cpp">
+      <Filter>Source\ShooterGame\Private\Effects</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShooterGame\Private\Online">
+      <UniqueIdentifier>{6EF7E5D1-8A76-4251-A802-B8C92DA9EBD7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterGameMode.cpp">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterGameSession.cpp">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterGameState.cpp">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterGame_FreeForAll.cpp">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterGame_Menu.cpp">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterGame_TeamDeathMatch.cpp">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterOnlineGameMatches.cpp">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterOnlineGameSettings.cpp">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\Online\ShooterOnlineGameSettings.h">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterOnlineSessionClient.cpp">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterPlayerState.cpp">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterReplicationGraph.cpp">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\Online\ShooterReplicationGraph.h">
+      <Filter>Source\ShooterGame\Private\Online</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Private\Pickups">
+      <UniqueIdentifier>{C154F88E-0E7C-4AA9-AA60-24A4C57ADFD6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Pickups\ShooterPickup.cpp">
+      <Filter>Source\ShooterGame\Private\Pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Pickups\ShooterPickup_Ammo.cpp">
+      <Filter>Source\ShooterGame\Private\Pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Pickups\ShooterPickup_Health.cpp">
+      <Filter>Source\ShooterGame\Private\Pickups</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShooterGame\Private\Player">
+      <UniqueIdentifier>{43434608-B9CF-4549-ABFF-D0EE99CA6494}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Player\ShooterCharacter.cpp">
+      <Filter>Source\ShooterGame\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Player\ShooterCharacterMovement.cpp">
+      <Filter>Source\ShooterGame\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Player\ShooterCheatManager.cpp">
+      <Filter>Source\ShooterGame\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Player\ShooterDemoSpectator.cpp">
+      <Filter>Source\ShooterGame\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Player\ShooterLocalPlayer.cpp">
+      <Filter>Source\ShooterGame\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Player\ShooterPersistentUser.cpp">
+      <Filter>Source\ShooterGame\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Player\ShooterPlayerCameraManager.cpp">
+      <Filter>Source\ShooterGame\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Player\ShooterPlayerController.cpp">
+      <Filter>Source\ShooterGame\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Player\ShooterPlayerController_Menu.cpp">
+      <Filter>Source\ShooterGame\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Player\ShooterSpectatorPawn.cpp">
+      <Filter>Source\ShooterGame\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShooterGame\Private\Sound">
+      <UniqueIdentifier>{19B1717D-6DC9-4842-B6D8-1A4EA9CA5620}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Sound\SoundNodeLocalPlayer.cpp">
+      <Filter>Source\ShooterGame\Private\Sound</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShooterGame\Private\Tests">
+      <UniqueIdentifier>{3F4EC3E9-40BF-4C33-AA45-791AA48BE72D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Tests\ShooterTestControllerBase.cpp">
+      <Filter>Source\ShooterGame\Private\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Tests\ShooterTestControllerBasicDedicatedServerTest.cpp">
+      <Filter>Source\ShooterGame\Private\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Tests\ShooterTestControllerBootTest.cpp">
+      <Filter>Source\ShooterGame\Private\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Tests\ShooterTestControllerDedicatedServerTest.cpp">
+      <Filter>Source\ShooterGame\Private\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Tests\ShooterTestControllerListenServerClient.cpp">
+      <Filter>Source\ShooterGame\Private\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Tests\ShooterTestControllerListenServerHost.cpp">
+      <Filter>Source\ShooterGame\Private\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Tests\ShooterTestControllerListenServerQuickMatchClient.cpp">
+      <Filter>Source\ShooterGame\Private\Tests</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShooterGame\Private\UI">
+      <UniqueIdentifier>{D88218B3-B5ED-4C9B-879E-DB38D909053D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\ShooterHUD.cpp">
+      <Filter>Source\ShooterGame\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\ShooterHUDPCTrackerBase.cpp">
+      <Filter>Source\ShooterGame\Private\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\ShooterHUDPCTrackerBase.h">
+      <Filter>Source\ShooterGame\Private\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\ShooterUIHelpers.cpp">
+      <Filter>Source\ShooterGame\Private\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\ShooterUIHelpers.h">
+      <Filter>Source\ShooterGame\Private\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Private\UI\Menu">
+      <UniqueIdentifier>{BF4451FC-7C89-468D-B199-85CBE6F40B4A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterDemoPlaybackMenu.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterDemoPlaybackMenu.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterFriends.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterFriends.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterIngameMenu.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterIngameMenu.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterMainMenu.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterMainMenu.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterMessageMenu.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterMessageMenu.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterOptions.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterOptions.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterRecentlyMet.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterRecentlyMet.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterWelcomeMenu.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterWelcomeMenu.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Private\UI\Menu\Widgets">
+      <UniqueIdentifier>{76418FEA-4FE7-47D5-8023-1D2D29004694}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\ShooterMenuItem.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterDemoList.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterDemoList.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterLeaderboard.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterLeaderboard.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterMenuItem.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterMenuItem.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterMenuWidget.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterMenuWidget.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterOnlineStore.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterOnlineStore.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterServerList.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\SShooterServerList.h">
+      <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Private\UI\Style">
+      <UniqueIdentifier>{41F7C6D6-3880-4940-9F31-7A5FB0631E0A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterChatWidgetStyle.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterChatWidgetStyle.h">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterMenuItemWidgetStyle.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterMenuItemWidgetStyle.h">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterMenuSoundsWidgetStyle.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterMenuSoundsWidgetStyle.h">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterMenuWidgetStyle.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterMenuWidgetStyle.h">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterOptionsWidgetStyle.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterOptionsWidgetStyle.h">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterScoreboardWidgetStyle.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterScoreboardWidgetStyle.h">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterStyle.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterStyle.h">
+      <Filter>Source\ShooterGame\Private\UI\Style</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Private\UI\Widgets">
+      <UniqueIdentifier>{085E83FC-58E6-4420-8591-C9B84AEAC1B5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Widgets\SChatWidget.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Widgets\SChatWidget.h">
+      <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Widgets\SShooterConfirmationDialog.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Widgets\SShooterConfirmationDialog.h">
+      <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Widgets\SShooterDemoHUD.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Widgets\SShooterDemoHUD.h">
+      <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Widgets\SShooterScoreboardWidget.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Widgets\SShooterScoreboardWidget.h">
+      <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Widgets\SShooterSplitScreenLobbyWidget.cpp">
+      <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Widgets\SShooterSplitScreenLobbyWidget.h">
+      <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Private\Weapons">
+      <UniqueIdentifier>{68FD3833-01CB-4981-AA4A-0E0ED65E7445}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Weapons\ShooterDamageType.cpp">
+      <Filter>Source\ShooterGame\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Weapons\ShooterProjectile.cpp">
+      <Filter>Source\ShooterGame\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Weapons\ShooterWeapon.cpp">
+      <Filter>Source\ShooterGame\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Weapons\ShooterWeapon_Instant.cpp">
+      <Filter>Source\ShooterGame\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterGame\Private\Weapons\ShooterWeapon_Projectile.cpp">
+      <Filter>Source\ShooterGame\Private\Weapons</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShooterGame\Public">
+      <UniqueIdentifier>{55EA09F1-81DB-4BA9-B993-4C88ABCAFFB3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\ShooterEngine.h">
+      <Filter>Source\ShooterGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\ShooterGame.h">
+      <Filter>Source\ShooterGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\ShooterGameInstance.h">
+      <Filter>Source\ShooterGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\ShooterGameUserSettings.h">
+      <Filter>Source\ShooterGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\ShooterGameViewportClient.h">
+      <Filter>Source\ShooterGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\ShooterTeamStart.h">
+      <Filter>Source\ShooterGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\ShooterTypes.h">
+      <Filter>Source\ShooterGame\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Public\Bots">
+      <UniqueIdentifier>{ED1B1457-FB88-44FC-A5B2-9783F6A18191}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Bots\BTDecorator_HasLoSTo.h">
+      <Filter>Source\ShooterGame\Public\Bots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Bots\BTTask_FindPickup.h">
+      <Filter>Source\ShooterGame\Public\Bots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Bots\BTTask_FindPointNearEnemy.h">
+      <Filter>Source\ShooterGame\Public\Bots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Bots\ShooterAIController.h">
+      <Filter>Source\ShooterGame\Public\Bots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Bots\ShooterBot.h">
+      <Filter>Source\ShooterGame\Public\Bots</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Public\Effects">
+      <UniqueIdentifier>{D5771D6E-9832-43C3-934B-5000F8E251D2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Effects\ShooterExplosionEffect.h">
+      <Filter>Source\ShooterGame\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Effects\ShooterImpactEffect.h">
+      <Filter>Source\ShooterGame\Public\Effects</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Public\Online">
+      <UniqueIdentifier>{D5F4BC26-ECF3-4517-8E4F-B3D7E4F81D57}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Online\ShooterGameMode.h">
+      <Filter>Source\ShooterGame\Public\Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Online\ShooterGameSession.h">
+      <Filter>Source\ShooterGame\Public\Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Online\ShooterGameState.h">
+      <Filter>Source\ShooterGame\Public\Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Online\ShooterGame_FreeForAll.h">
+      <Filter>Source\ShooterGame\Public\Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Online\ShooterGame_Menu.h">
+      <Filter>Source\ShooterGame\Public\Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Online\ShooterGame_TeamDeathMatch.h">
+      <Filter>Source\ShooterGame\Public\Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Online\ShooterOnlineGameMatches.h">
+      <Filter>Source\ShooterGame\Public\Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Online\ShooterOnlineSessionClient.h">
+      <Filter>Source\ShooterGame\Public\Online</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Online\ShooterPlayerState.h">
+      <Filter>Source\ShooterGame\Public\Online</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Public\Pickups">
+      <UniqueIdentifier>{71C1FE6E-DE16-4B2D-B05A-E794E811FECA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Pickups\ShooterPickup.h">
+      <Filter>Source\ShooterGame\Public\Pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Pickups\ShooterPickup_Ammo.h">
+      <Filter>Source\ShooterGame\Public\Pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Pickups\ShooterPickup_Health.h">
+      <Filter>Source\ShooterGame\Public\Pickups</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Public\Player">
+      <UniqueIdentifier>{F8AC4F33-F593-4097-817C-27E3DCCA8A7A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Player\ShooterCharacter.h">
+      <Filter>Source\ShooterGame\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Player\ShooterCharacterMovement.h">
+      <Filter>Source\ShooterGame\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Player\ShooterCheatManager.h">
+      <Filter>Source\ShooterGame\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Player\ShooterDemoSpectator.h">
+      <Filter>Source\ShooterGame\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Player\ShooterLocalPlayer.h">
+      <Filter>Source\ShooterGame\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Player\ShooterPersistentUser.h">
+      <Filter>Source\ShooterGame\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Player\ShooterPlayerCameraManager.h">
+      <Filter>Source\ShooterGame\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Player\ShooterPlayerController.h">
+      <Filter>Source\ShooterGame\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Player\ShooterPlayerController_Menu.h">
+      <Filter>Source\ShooterGame\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Player\ShooterSpectatorPawn.h">
+      <Filter>Source\ShooterGame\Public\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Public\Sound">
+      <UniqueIdentifier>{E7760749-14D4-4DAE-8787-5E78F09F7DE2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Sound\SoundNodeLocalPlayer.h">
+      <Filter>Source\ShooterGame\Public\Sound</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Public\Tests">
+      <UniqueIdentifier>{EB3B5EE5-BD92-4097-A88E-3C5E04D646D2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Tests\ShooterTestControllerBase.h">
+      <Filter>Source\ShooterGame\Public\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Tests\ShooterTestControllerBasicDedicatedServerTest.h">
+      <Filter>Source\ShooterGame\Public\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Tests\ShooterTestControllerBootTest.h">
+      <Filter>Source\ShooterGame\Public\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Tests\ShooterTestControllerDedicatedServerTest.h">
+      <Filter>Source\ShooterGame\Public\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Tests\ShooterTestControllerListenServerClient.h">
+      <Filter>Source\ShooterGame\Public\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Tests\ShooterTestControllerListenServerHost.h">
+      <Filter>Source\ShooterGame\Public\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Tests\ShooterTestControllerListenServerQuickMatchClient.h">
+      <Filter>Source\ShooterGame\Public\Tests</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Public\UI">
+      <UniqueIdentifier>{E8211DED-E862-4E23-A0EB-F53E7C7F7F59}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\UI\ShooterHUD.h">
+      <Filter>Source\ShooterGame\Public\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Public\Weapons">
+      <UniqueIdentifier>{32CE81B9-081A-44CB-8E86-4BF6A8209F3A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Weapons\ShooterDamageType.h">
+      <Filter>Source\ShooterGame\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Weapons\ShooterProjectile.h">
+      <Filter>Source\ShooterGame\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Weapons\ShooterWeapon.h">
+      <Filter>Source\ShooterGame\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Weapons\ShooterWeapon_Instant.h">
+      <Filter>Source\ShooterGame\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterGame\Public\Weapons\ShooterWeapon_Projectile.h">
+      <Filter>Source\ShooterGame\Public\Weapons</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterGame\Resources">
+      <UniqueIdentifier>{F9215F66-DF43-434C-A6BF-CCF27C7913B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ShooterGame\Resources\Mac">
+      <UniqueIdentifier>{4E20BF5D-4806-4E7D-89F4-E6C57620FF84}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShooterGame\Resources\Mac\Info.plist">
+      <Filter>Source\ShooterGame\Resources\Mac</Filter>
+    </None>
+    <None Include="..\..\Source\ShooterGame\Resources\Mac\ShooterGame.icns">
+      <Filter>Source\ShooterGame\Resources\Mac</Filter>
+    </None>
+    <Filter Include="Source\ShooterGame\Resources\Windows">
+      <UniqueIdentifier>{F82FCFFB-E241-44CC-AF1F-8D540820E330}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShooterGame\Resources\Windows\ShooterGame.ico">
+      <Filter>Source\ShooterGame\Resources\Windows</Filter>
+    </None>
+    <ResourceCompile Include="..\..\Source\ShooterGame\Resources\Windows\ShooterGame.rc">
+      <Filter>Source\ShooterGame\Resources\Windows</Filter>
+    </ResourceCompile>
+    <Filter Include="Source\ShooterGameLoadingScreen">
+      <UniqueIdentifier>{589D4182-2DBB-4235-9EC4-4500F2C439FC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShooterGameLoadingScreen\ShooterGameLoadingScreen.Build.cs">
+      <Filter>Source\ShooterGameLoadingScreen</Filter>
+    </None>
+    <Filter Include="Source\ShooterGameLoadingScreen\Private">
+      <UniqueIdentifier>{DCCD99D1-1727-4ECD-91A1-5E6F1A3B6BC9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterGameLoadingScreen\Private\ShooterGameLoadingScreen.cpp">
+      <Filter>Source\ShooterGameLoadingScreen\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShooterGameLoadingScreen\Public">
+      <UniqueIdentifier>{BBD5E400-41F9-4E10-81E7-08E5D9878A46}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterGameLoadingScreen\Public\ShooterGameLoadingScreen.h">
+      <Filter>Source\ShooterGameLoadingScreen\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
